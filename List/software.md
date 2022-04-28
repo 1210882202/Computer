@@ -9,15 +9,14 @@ Get-FileHash path/to/file -Algorithm sha1 | Format-List
 |03.|搜狗输入法|<https://pinyin.sogou.com/>|
 |04.|Office|md5 = a0a2392c29a82dbdb40a4e5978d22f0b|
 |05.|Acrobat|md5 = 11d2d9ee64a8a1da65c4fb020b18f68d|
-|06.|佛跳墙|<https://github.com/getfotiaoqiang/download>|
-|07.|西游|<https://xiyou4you.us/i/>|
-|08.|Global Protect|<https://vpnclient.usfca.edu/>|
-|09.|OfficeBox|<http://www.wofficebox.com/>|
-|10.|火萤酱|<http://www.huochaipro.com/>|
-|11.|电脑管家|<https://guanjia.qq.com/page/product_download.html>|
-|12.|snipate|<https://www.snipaste.com/>|
-|13.|bandicam|<https://www.bandicam.cn/downloads/>|
-|14.|打印机驱动|<https://support.hp.com/in-en/drivers/printers>|
+|06.|西游|<https://xiyou4you.us/i/>|
+|07.|Global Protect|<https://vpnclient.usfca.edu/>|
+|08.|OfficeBox|<http://www.wofficebox.com/>|
+|09.|火萤酱|<http://www.huochaipro.com/>|
+|10.|电脑管家|<https://guanjia.qq.com/page/product_download.html>|
+|11.|snipate|<https://www.snipaste.com/>|
+|12.|bandicam|<https://www.bandicam.cn/downloads/>|
+|13.|打印机驱动|<https://support.hp.com/in-en/drivers/printers>|
 ## win-必备:
 |序号|名称|来源/校验|
 |-:|:-:|:-|
@@ -59,9 +58,9 @@ openssl dgst -sha1 path/to/file
 |02.|搜狗输入法|<https://pinyin.sogou.com/mac/>|
 |03.|Scroll Reverser|<https://pilotmoon.com/scrollreverser/>|
 |04.|NTFS|<https://uc.paragon-software.com/cabinet/#/>|
-|05.|佛跳墙|<https://github.com/getfotiaoqiang/download>|
-|06.|西游|<https://xiyou4you.us/i/>|
-|07.|Global Protect|<https://vpnclient.usfca.edu/>|
+|05.|西游|<https://xiyou4you.us/i/>|
+|06.|Global Protect|<https://vpnclient.usfca.edu/>|
+|07.|Cheat Sheet|<https://www.mediaatelier.com/CheatSheet/>|
 |08.|Dynamic Wallpaper|App Store|
 |09.|Office|md5 = dfbce7b3fd06b0429ced4f3cb3acbb8d|
 |10.|柠檬清理|<https://lemon.qq.com/>|
@@ -75,7 +74,6 @@ openssl dgst -sha1 path/to/file
 |18.|VMware|<https://customerconnect.vmware.com/group/vmware/evalcenter?p=fusion-player-personal>|
 |19.|Virtual Box|<https://www.virtualbox.org/wiki/Downloads>|
 |20.|Open Any File|App Store|
-|21.|Cheat Sheet|<https://www.mediaatelier.com/CheatSheet/>|
 ## mac-必备:
 |序号|名称|来源/校验|
 |-:|:-:|:-|
@@ -91,16 +89,18 @@ openssl dgst -sha1 path/to/file
 |10.|Firefox|<http://www.firefox.com.cn/>|
 |11.|IINA|<https://iina.io/>|
 |12.|暴风影音|<http://www.baofeng.com/download>|
-|13.|有道词典|<https://cidian.youdao.com/multi.html>|
-|14.|知云文献翻译|<https://www.zhiyunwenxian.cn/>|
-|15.|Pitaya|<https://www.mypitaya.com/#download>|
-|16.|Photoshop|<https://osx.cx/?s=photoshop>|
-|17.|Downie 4|<https://sw.mac361.com/wksearch/wkapps/downie/0/1.html>|
-|18.|TubeGet|<https://www.jihosoft.cn/tubeget/>|
-|19.|华为手机助手|App Store|
-|20.|START|<https://start.qq.com/#page-1>|
-|21.|uu加速器|<https://uu.163.com/>|
-|22.|STEAM|<https://store.steampowered.com/about/>|
+|13.|DMM|<https://www.dmm.co.jp/digital/-/mylibrary/search/>|
+|14.|115网盘|<https://115.com/>|
+|15.|幕布|<https://mubu.com/apps>|
+|16.|有道词典|<https://cidian.youdao.com/multi.html>|
+|17.|知云文献翻译|<https://www.zhiyunwenxian.cn/>|
+|18.|Pitaya|<https://www.mypitaya.com/#download>|
+|19.|Photoshop|<https://osx.cx/?s=photoshop>|
+|20.|Downie 4|<https://sw.mac361.com/wksearch/wkapps/downie/0/1.html>|
+|21.|TubeGet|<https://www.jihosoft.cn/tubeget/>|
+|22.|华为手机助手|App Store|
+|23.|START|<https://start.qq.com/#page-1>|
+|24.|STEAM|<https://store.steampowered.com/about/>|
 ## mac-编程:
 |序号|名称|来源/校验|
 |-:|:-:|:-|
@@ -111,10 +111,10 @@ openssl dgst -sha1 path/to/file
 |05.|WebStorm|<https://sw.mac361.com/wksearch/wkapps/webstorm/0/1.html>|
 |06.|R|<https://cran.r-project.org/>|
 |07.|R Studio|<https://www.rstudio.com/products/rstudio/download/>|
-|08.|Matlab|<https://sw.mac361.com/wksearch/wkapps/matlab/0/1.html>|
-|09.|MacTeX|<https://zhuanlan.zhihu.com/p/66103569>|
-|10.|Visual Studio Code|<https://code.visualstudio.com/>|
-|11.|DevEco Studio|<https://developer.harmonyos.com/cn/develop>|
+|08.|MacTeX|<https://zhuanlan.zhihu.com/p/66103569>|
+|09.|Visual Studio Code|<https://code.visualstudio.com/>|
+|10.|DevEco Studio|<https://developer.harmonyos.com/cn/develop>|
+|11.|Matlab|<https://sw.mac361.com/wksearch/wkapps/matlab/0/1.html>|
 |12.|Navicat|<https://osx.cx/?s=navicat>|
 |13.|Transmit|<https://osx.cx/?s=transmit>|
 |14.|SecureCRT|<https://osx.cx/?s=securecrt>|
