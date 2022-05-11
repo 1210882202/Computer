@@ -7,7 +7,7 @@ Get-FileHash path/to/file -Algorithm sha1 | Format-List
 |01.|7-Zip|<https://www.7-zip.org/>|
 |02.|盘姬工具箱|md5 = 93d92298ea3d819cd240396e103c4ff6|
 |03.|搜狗输入法|<https://pinyin.sogou.com/>|
-|04.|Office|md5 = a0a2392c29a82dbdb40a4e5978d22f0b|
+|04.|Office|<https://www.coolhub.top/archives/11>|
 |05.|Acrobat|md5 = 11d2d9ee64a8a1da65c4fb020b18f68d|
 |06.|西游|<https://xiyou4you.us/i/>|
 |07.|Global Protect|<https://vpnclient.usfca.edu/>|
