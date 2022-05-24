@@ -90,17 +90,18 @@ openssl dgst -sha1 path/to/file
 |11.|IINA|<https://iina.io/>|
 |12.|暴风影音|<http://www.baofeng.com/download>|
 |13.|DMM|<https://www.dmm.co.jp/digital/-/mylibrary/search/>|
-|14.|115网盘|<https://115.com/>|
-|15.|幕布|<https://mubu.com/apps>|
-|16.|有道词典|<https://cidian.youdao.com/multi.html>|
-|17.|知云文献翻译|<https://www.zhiyunwenxian.cn/>|
-|18.|Pitaya|<https://www.mypitaya.com/#download>|
-|19.|Photoshop|<https://osx.cx/?s=photoshop>|
-|20.|Downie 4|<https://sw.mac361.com/wksearch/wkapps/downie/0/1.html>|
-|21.|TubeGet|<https://www.jihosoft.cn/tubeget/>|
-|22.|华为手机助手|App Store|
-|23.|START|<https://start.qq.com/#page-1>|
-|24.|STEAM|<https://store.steampowered.com/about/>|
+|14.|夸克网盘|<https://pan.quark.cn/>|
+|15.|115网盘|<https://115.com/>|
+|16.|幕布|<https://mubu.com/apps>|
+|17.|有道词典|<https://cidian.youdao.com/multi.html>|
+|18.|知云文献翻译|<https://www.zhiyunwenxian.cn/>|
+|19.|Pitaya|<https://www.mypitaya.com/#download>|
+|20.|Photoshop|<https://osx.cx/?s=photoshop>|
+|21.|Downie 4|<https://sw.mac361.com/wksearch/wkapps/downie/0/1.html>|
+|22.|TubeGet|<https://www.jihosoft.cn/tubeget/>|
+|23.|华为手机助手|App Store|
+|24.|START|<https://start.qq.com/#page-1>|
+|25.|STEAM|<https://store.steampowered.com/about/>|
 ## mac-编程:
 |序号|名称|来源/校验|
 |-:|:-:|:-|
