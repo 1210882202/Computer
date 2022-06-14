@@ -2,7 +2,7 @@
 ## 文件：
 |名称|日期|
 |:-|:-|
-|EFI.zip|2022.05.24|
+|EFI.zip|2022.06.14|
 
 ## 备注：
 >Root
@@ -12,6 +12,7 @@
 >>>>EnableWriteUnprotector -> No  
 >>>>ProtectUefiServices -> Yes  
 >>>>RebuildAppleMemoryMap -> Yes  
+>>>>ResizeAppleGpuBars -> -1  
 >>>>SetupVirtualMap -> No  
 >>>>SyncRuntimePermissions -> Yes
 
@@ -29,12 +30,12 @@
 >>>>DisableIoMapper -> Yes  
 >>>>PanicNoKextDump -> Yes  
 >>>>PowerTimeoutKernelPanic -> Yes  
->>>>ProvideCurrentCpuInfo -> No  
 >>>>XhciPortLimit -> No
 
 >>Misc
 >>>Boot
 >>>>HideAuxiliary -> Yes  
+>>>>LauncherOption -> Full  
 >>>>PickerMode -> External  
 >>>>PickerVariant -> Acidanthera\MyImg  
 >>>>Timeout -> 7
@@ -48,6 +49,7 @@
 >>Security
 >>>AllowNvramReset -> Yes  
 >>>AllowSetDefault -> Yes  
+>>>BlacklistAppleUpdate -> Yes  
 >>>AllowToggleSip -> Yes  
 >>>ScanPolicy -> 0  
 >>>SecureBootModel -> j185  
