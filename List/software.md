@@ -1,125 +1,95 @@
-# Windows:
-Get-FileHash path/to/file -Algorithm md5 | Format-List  
-Get-FileHash path/to/file -Algorithm sha1 | Format-List
-## win-系统:
-|序号|名称|来源/校验|
-|-:|:-:|:-|
-|01.|7-Zip|<https://www.7-zip.org/>|
-|02.|盘姬工具箱|md5 = 93d92298ea3d819cd240396e103c4ff6|
-|03.|搜狗输入法|<https://pinyin.sogou.com/>|
-|04.|Office|<https://www.coolhub.top/archives/11>|
-|05.|Acrobat|md5 = 11d2d9ee64a8a1da65c4fb020b18f68d|
-|06.|西游|<https://xiyou4you.us/i/>|
-|07.|Global Protect|<https://vpnclient.usfca.edu/>|
-|08.|OfficeBox|<http://www.wofficebox.com/>|
-|09.|火萤酱|<http://www.huochaipro.com/>|
-|10.|电脑管家|<https://guanjia.qq.com/page/product_download.html>|
-|11.|snipate|<https://www.snipaste.com/>|
-|12.|bandicam|<https://www.bandicam.cn/downloads/>|
-|13.|打印机驱动|<https://support.hp.com/in-en/drivers/printers>|
-## win-必备:
-|序号|名称|来源/校验|
-|-:|:-:|:-|
-|01.|坚果云|<https://www.jianguoyun.com/s/downloads>|
-|02.|阿里云盘|<https://www.aliyundrive.com/>|
-|03.|百度网盘|<https://pan.baidu.com/download#pan>|
-|04.|QQ|<https://im.qq.com/download>|
-|05.|微信|<https://pc.weixin.qq.com/>|
-|06.|Chrome|<https://www.google.cn/chrome/>|
-|07.|暴风影音|<http://www.baofeng.com/download>|
-|08.|uu加速器|<https://uu.163.com/>|
-|09.|STEAM|<https://store.steampowered.com/about/>|
-|10.|Steam++|<https://steampp.net/>|
-|11.|Ubisoft|<https://ubisoftconnect.com/zh-CN/>|
-|12.|格式工厂|<http://www.pcgeshi.com/>|
-|13.|光影魔术手|<http://www.neoimaging.cn/>|
-|14.|冰点下载器|md5 = 08425ab6b0d275cbc19e878b67665bb9|
-|15.|五子棋|md5 = f16219f79c8e97a1d4ae2472cf8d7057|
-## win-编程:
-|序号|名称|来源/校验|
-|-:|:-:|:-|
-|01.|Sublime|<http://www.sublimetext.com/>|
-|02.|notepad++|<https://notepad-plus-plus.org/downloads/>|
-|03.|Dev-C++|<https://github.com/Embarcadero/Dev-Cpp/>|
-|04.|JDK|<https://www.runoob.com/java/java-environment-setup.html>|
-|05.|Python|<https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624>|
-|06.|MySQL|<https://www.cnblogs.com/winton-nfs/p/11524007.html>|
-|07.|Navicat|<https://my.oschina.net/SoberLee/blog/4746541?hmsr=kaifa_aladdin>|
-|08.|SPSS Modeler|百度网盘:<https://pan.baidu.com/s/1D8wlbnKo9n2Al86g7rlrDQ> 提取码:efa3|
-|09.|LaTex|<https://zhuanlan.zhihu.com/p/56982388>|
+# 校验:
+|序号|方法|mac/win|指令|
+|-:|:-:|:-:|:-|
+|01.|md5|mac|md5 path/to/file|
+|||win|Get-FileHash path/to/file -Algorithm md5 \| Format-List|
+|02.|sha1|mac|openssl dgst -sha1 path/to/file|
+|||win|Get-FileHash path/to/file -Algorithm sha1 \| Format-List|
 
-# macOS:
-md5 path/to/file  
-openssl dgst -sha1 path/to/file
-## mac-系统:
-|序号|名称|来源/校验|
-|-:|:-:|:-|
-|01.|MacZip|<https://ezip.awehunt.com/>|
-|02.|搜狗输入法|<https://pinyin.sogou.com/mac/>|
-|03.|Scroll Reverser|<https://pilotmoon.com/scrollreverser/>|
-|04.|NTFS|<https://uc.paragon-software.com/cabinet/#/>|
-|05.|西游|<https://xiyou4you.us/i/>|
-|06.|Global Protect|<https://vpnclient.usfca.edu/>|
-|07.|Cheat Sheet|<https://www.mediaatelier.com/CheatSheet/>|
-|08.|Dynamic Wallpaper|App Store|
-|09.|Office|md5 = dfbce7b3fd06b0429ced4f3cb3acbb8d|
-|10.|柠檬清理|<https://lemon.qq.com/>|
-|11.|TeamViewer|<https://www.teamviewer.cn/cn/>|
-|12.|迅雷|<https://www.xunlei.com/>|
-|13.|iStat Menus|<https://beta.bjango.com/mac/istatmenus/>|
-|14.|Snipate|<https://www.snipaste.com/>|
-|15.|ScreenFlow|<https://osx.cx/?s=screenflowScreenFlow>|
-|16.|万兴优转|<https://uniconverter.wondershare.cn/>|
-|17.|Parallels|<https://www.parallels.com/products/desktop/download/>|
-|18.|VMware|<https://customerconnect.vmware.com/group/vmware/evalcenter?p=fusion-player-personal>|
-|19.|Virtual Box|<https://www.virtualbox.org/wiki/Downloads>|
-|20.|Open Any File|App Store|
-## mac-必备:
-|序号|名称|来源/校验|
-|-:|:-:|:-|
-|01.|坚果云|<https://www.jianguoyun.com/s/downloads>|
-|02.|阿里云盘|<https://www.aliyundrive.com/>|
-|03.|百度网盘|<https://pan.baidu.com/download#pan>|
-|04.|QQ|<https://im.qq.com/macqq/>|
-|05.|QQ音乐|<https://y.qq.com/download/mac.html>|
-|06.|微信|<https://mac.weixin.qq.com/>|
-|07.|企业微信|<https://work.weixin.qq.com/#indexDownload>|
-|08.|Chrome|<https://www.google.cn/chrome/>|
-|09.|Edge|<https://www.microsoft.com/zh-cn/edge>|
-|10.|Firefox|<http://www.firefox.com.cn/>|
-|11.|IINA|<https://iina.io/>|
-|12.|暴风影音|<http://www.baofeng.com/download>|
-|13.|DMM|<https://www.dmm.co.jp/digital/-/mylibrary/search/>|
-|14.|夸克网盘|<https://pan.quark.cn/>|
-|15.|115网盘|<https://115.com/>|
-|16.|幕布|<https://mubu.com/apps>|
-|17.|有道词典|<https://cidian.youdao.com/multi.html>|
-|18.|知云文献翻译|<https://www.zhiyunwenxian.cn/>|
-|19.|Pitaya|<https://www.mypitaya.com/#download>|
-|20.|Photoshop|<https://osx.cx/?s=photoshop>|
-|21.|Downie 4|<https://sw.mac361.com/wksearch/wkapps/downie/0/1.html>|
-|22.|TubeGet|<https://www.jihosoft.cn/tubeget/>|
-|23.|华为手机助手|App Store|
-|24.|START|<https://start.qq.com/#page-1>|
-|25.|STEAM|<https://store.steampowered.com/about/>|
-## mac-编程:
-|序号|名称|来源/校验|
-|-:|:-:|:-|
-|01.|Xcode|App Store|
-|02.|Sublime|<http://www.sublimetext.com/>|
-|03.|IDEA|<https://sw.mac361.com/wksearch/wkapps/idea/0/1.html>|
-|04.|PyCharm|<https://sw.mac361.com/wksearch/wkapps/pycharm/0/1.html>|
-|05.|WebStorm|<https://sw.mac361.com/wksearch/wkapps/webstorm/0/1.html>|
-|06.|R|<https://cran.r-project.org/>|
-|07.|R Studio|<https://www.rstudio.com/products/rstudio/download/>|
-|08.|MacTeX|<https://zhuanlan.zhihu.com/p/66103569>|
-|09.|Visual Studio Code|<https://code.visualstudio.com/>|
-|10.|DevEco Studio|<https://developer.harmonyos.com/cn/develop>|
-|11.|Matlab|<https://sw.mac361.com/wksearch/wkapps/matlab/0/1.html>|
-|12.|Navicat|<https://osx.cx/?s=navicat>|
-|13.|Transmit|<https://osx.cx/?s=transmit>|
-|14.|SecureCRT|<https://osx.cx/?s=securecrt>|
-## mac-Hackintosh:
+# 系统:
+|序号|名称|mac/win|来源/校验|
+|-:|:-:|:-:|:-|
+|01.|MacZip|mac|<https://ezip.awehunt.com/>|
+||7-Zip|win|<https://www.7-zip.org/>|
+|02.|盘姬工具箱|win|md5 = 93d92298ea3d819cd240396e103c4ff6|
+|03.|搜狗输入法|mac|<https://pinyin.sogou.com/mac/>|
+|||win|<https://pinyin.sogou.com/>|
+|04.|Scroll Reverser|mac|<https://pilotmoon.com/scrollreverser/>|
+|05.|NTFS|mac|<https://uc.paragon-software.com/cabinet/#/>|
+|06.|Office|mac|md5 = dfbce7b3fd06b0429ced4f3cb3acbb8d|
+|||win|<https://www.coolhub.top/archives/11>|
+|07.|迅雷|mac+win|<https://www.xunlei.com/>|
+|08.|Global Protect|mac+win|<https://vpnclient.usfca.edu/>|
+|09.|Acrobat|win|md5 = 11d2d9ee64a8a1da65c4fb020b18f68d|
+|10.|OfficeBox|win|<http://www.wofficebox.com/>|
+|11.|Cheat Sheet|mac|<https://www.mediaatelier.com/CheatSheet/>|
+||火萤酱|win|<http://www.huochaipro.com/>|
+|12.|Dynamic Wallpaper|mac|App Store|
+|13.|柠檬清理|mac|<https://lemon.qq.com/>|
+||电脑管家|win|<https://guanjia.qq.com/page/product_download.html>|
+|14.|Snipate|mac+win|<https://www.snipaste.com/>|
+|15.|ScreenFlow|mac|<https://osx.cx/?s=screenflowScreenFlow>|
+||bandicam|win|<https://www.bandicam.cn/downloads/>|
+|16.|iStat Menus|mac|<https://beta.bjango.com/mac/istatmenus/>|
+|17.|万兴优转|mac|<https://uniconverter.wondershare.cn/>|
+|18.|TeamViewer|mac+win|<https://www.teamviewer.cn/cn/>|
+|19.|Parallels|mac|<https://www.parallels.com/products/desktop/download/>|
+|20.|VMware|mac|<https://customerconnect.vmware.com/group/vmware/evalcenter?p=fusion-player-personal>|
+|21.|Virtual Box|mac|<https://www.virtualbox.org/wiki/Downloads>|
+|22.|Open Any File|mac|App Store||
+|23.|打印机驱动|win|<https://support.hp.com/in-en/drivers/printers>|
+
+# 必备:
+|序号|名称|mac/win|来源/校验|
+|-:|:-:|:-:|:-|
+|01.|坚果云|mac+win|<https://www.jianguoyun.com/s/downloads>|
+|02.|阿里云盘|mac+win|<https://www.aliyundrive.com/>|
+|03.|百度网盘|mac+win|<https://pan.baidu.com/download#pan>|
+|04.|QQ|mac|<https://im.qq.com/macqq/>||
+|||win|<https://im.qq.com/download>|
+|05.|QQ音乐|mac|<https://y.qq.com/download/mac.html>|
+|||win|<https://y.qq.com/download>|
+|06.|微信|mac|<https://mac.weixin.qq.com/>|
+|||win|<https://pc.weixin.qq.com/>|
+|07.|Chrome|mac+win|<https://www.google.cn/chrome/>|
+|08.|Edge|mac|<https://www.microsoft.com/zh-cn/edge>|
+|09.|Firefox|mac|<http://www.firefox.com.cn/>|
+|10.|IINA|mac|<https://iina.io/>|
+|11.|暴风影音|mac+win|<http://www.baofeng.com/download>|
+|12.|DMM|mac|<https://www.dmm.co.jp/digital/-/mylibrary/search/>|
+|13.|夸克网盘|mac|<https://pan.quark.cn/>|
+|14.|115网盘|mac|<https://115.com/>|
+|15.|Photoshop|mac|<https://osx.cx/?s=photoshop>|
+|16.|Downie 4|mac|<https://sw.mac361.com/wksearch/wkapps/downie/0/1.html>|
+|17.|TubeGet|mac|<https://www.jihosoft.cn/tubeget/>|
+|18.|华为手机助手|mac|App Store|
+|19.|格式工厂|win|<http://www.pcgeshi.com/>|
+|20.|光影魔术手|win|<http://www.neoimaging.cn/>|
+|21.|哔哩哔哩投稿工具|win|<https://member.bilibili.com/platform/home>|
+|22.|uu加速器|win|<https://uu.163.com/>|
+|23.|Steam|mac+win|<https://store.steampowered.com/about/>|
+|24.|Steam++|win|<https://steampp.net/>|
+|25.|Ubisoft|win|<https://ubisoftconnect.com/zh-CN/>|
+|26.|START|mac|<https://start.qq.com/#page-1>|
+
+# 编程:
+|序号|名称|mac/win|来源/校验|
+|-:|:-:|:-:|:-|
+|01.|Sublime|mac+win|<http://www.sublimetext.com/>|
+|02.|notepad++|win|<https://notepad-plus-plus.org/downloads/>|
+|03.|Dev-C++|win|<https://github.com/Embarcadero/Dev-Cpp/>|
+|04.|JDK|mac+win|<https://www.runoob.com/java/java-environment-setup.html>|
+|05.|Python|mac+win|<https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624>|
+|06.|MySQL|win|<https://www.cnblogs.com/winton-nfs/p/11524007.html>|
+|07.|SPSS Modeler|win|百度网盘:<https://pan.baidu.com/s/1D8wlbnKo9n2Al86g7rlrDQ> 提取码:efa3|
+|08.|LaTex|win|<https://zhuanlan.zhihu.com/p/56982388>|
+||MacTeX|mac|<https://zhuanlan.zhihu.com/p/66103569>|
+|09.|Matlab|mac|<http://macwk.com/soft/matlab>|
+|10.|IDEA|mac|<http://macwk.com/soft/intellij-idea>|
+|11.|R|mac+win|<https://cran.r-project.org/>|
+|12.|R Studio|mac+win|<https://www.rstudio.com/products/rstudio/download/>|
+
+# Hackintosh:
 |序号|名称|来源/校验|
 |-:|:-:|:-|
 |01.|OpenCore Configurator|<https://mackie100projects.altervista.org/>|
