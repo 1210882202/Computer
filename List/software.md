@@ -16,15 +16,15 @@
 |||win|<https://pinyin.sogou.com/>|
 |04.|Scroll Reverser|mac|<https://pilotmoon.com/scrollreverser/>|
 |05.|NTFS|mac|<https://uc.paragon-software.com/cabinet/#/>|
-|06.|Office|mac|md5 = dfbce7b3fd06b0429ced4f3cb3acbb8d|
-|||win|<https://www.coolhub.top/archives/11>|
-|07.|迅雷|mac+win|<https://www.xunlei.com/>|
-|08.|Global Protect|mac+win|<https://vpnclient.usfca.edu/>|
-|09.|Acrobat|win|md5 = 11d2d9ee64a8a1da65c4fb020b18f68d|
-|10.|OfficeBox|win|<http://www.wofficebox.com/>|
-|11.|Cheat Sheet|mac|<https://www.mediaatelier.com/CheatSheet/>|
+|06.|迅雷|mac+win|<https://www.xunlei.com/>|
+|07.|Global Protect|mac+win|<https://vpnclient.usfca.edu/>|
+|08.|Acrobat|win|md5 = 11d2d9ee64a8a1da65c4fb020b18f68d|
+|09.|OfficeBox|win|<http://www.wofficebox.com/>|
+|10.|Cheat Sheet|mac|<https://www.mediaatelier.com/CheatSheet/>|
 ||火萤酱|win|<http://www.huochaipro.com/>|
-|12.|Dynamic Wallpaper|mac|App Store|
+|11.|Dynamic Wallpaper|mac|App Store|
+|12.|Office|mac|md5 = dfbce7b3fd06b0429ced4f3cb3acbb8d|
+|||win|<https://www.coolhub.top/archives/11>|
 |13.|柠檬清理|mac|<https://lemon.qq.com/>|
 ||电脑管家|win|<https://guanjia.qq.com/page/product_download.html>|
 |14.|Snipate|mac+win|<https://www.snipaste.com/>|
@@ -32,12 +32,13 @@
 ||bandicam|win|<https://www.bandicam.cn/downloads/>|
 |16.|iStat Menus|mac|<https://beta.bjango.com/mac/istatmenus/>|
 |17.|万兴优转|mac|<https://uniconverter.wondershare.cn/>|
-|18.|TeamViewer|mac+win|<https://www.teamviewer.cn/cn/>|
-|19.|Parallels|mac|<https://www.parallels.com/products/desktop/download/>|
-|20.|VMware|mac|<https://customerconnect.vmware.com/group/vmware/evalcenter?p=fusion-player-personal>|
-|21.|Virtual Box|mac|<https://www.virtualbox.org/wiki/Downloads>|
-|22.|Open Any File|mac|App Store||
-|23.|打印机驱动|win|<https://support.hp.com/in-en/drivers/printers>|
+|18.|Foxmail|mac|App Store|
+|19.|Typora|mac|<https://typoraio.cn/>|
+|20.|TeamViewer|mac+win|<https://www.teamviewer.cn/cn/>|
+|21.|Open Any File|mac|App Store|
+|22.|Parallels|mac|<https://www.parallels.com/products/desktop/download/>|
+|23.|VMware|mac|<https://customerconnect.vmware.com/group/vmware/evalcenter?p=fusion-player-personal>|
+|24.|打印机驱动|win|<https://support.hp.com/in-en/drivers/printers>|
 
 # 必备:
 |序号|名称|mac/win|来源/校验|
@@ -45,19 +46,19 @@
 |01.|坚果云|mac+win|<https://www.jianguoyun.com/s/downloads>|
 |02.|阿里云盘|mac+win|<https://www.aliyundrive.com/>|
 |03.|百度网盘|mac+win|<https://pan.baidu.com/download#pan>|
-|04.|QQ|mac|<https://im.qq.com/macqq/>||
+|04.|夸克网盘|mac|<https://pan.quark.cn/>|
+|05.|QQ|mac|<https://im.qq.com/macqq/>||
 |||win|<https://im.qq.com/download>|
-|05.|QQ音乐|mac|<https://y.qq.com/download/mac.html>|
+|06.|QQ音乐|mac|<https://y.qq.com/download/mac.html>|
 |||win|<https://y.qq.com/download>|
-|06.|微信|mac|<https://mac.weixin.qq.com/>|
+|07.|微信|mac|<https://mac.weixin.qq.com/>|
 |||win|<https://pc.weixin.qq.com/>|
-|07.|Chrome|mac+win|<https://www.google.cn/chrome/>|
-|08.|Edge|mac|<https://www.microsoft.com/zh-cn/edge>|
-|09.|Firefox|mac|<http://www.firefox.com.cn/>|
-|10.|IINA|mac|<https://iina.io/>|
-|11.|暴风影音|mac+win|<http://www.baofeng.com/download>|
-|12.|DMM|mac|<https://www.dmm.co.jp/digital/-/mylibrary/search/>|
-|13.|夸克网盘|mac|<https://pan.quark.cn/>|
+|08.|Chrome|mac+win|<https://www.google.cn/chrome/>|
+|09.|Edge|mac|<https://www.microsoft.com/zh-cn/edge>|
+|10.|Firefox|mac|<http://www.firefox.com.cn/>|
+|11.|IINA|mac|<https://iina.io/>|
+|12.|暴风影音|mac+win|<http://www.baofeng.com/download>|
+|13.|DMM|mac|<https://www.dmm.co.jp/digital/-/mylibrary/search/>|
 |14.|115网盘|mac|<https://115.com/>|
 |15.|Photoshop|mac|<https://osx.cx/?s=photoshop>|
 |16.|Downie 4|mac|<https://sw.mac361.com/wksearch/wkapps/downie/0/1.html>|
